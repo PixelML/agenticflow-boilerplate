@@ -11,7 +11,8 @@ npm i
 ### Setup environment
 
 ```
-AGENTICFLOW_ACCESS_TOKEN=XXX
+NEXT_PUBLIC_API_BASE_URL=https://api.workflowchef.ai
+AGENTICFLOW_API_KEY=XXX
 AGENTICFLOW_TEAMSPACE_ID=XXX
 ```
 

@@ -38,11 +38,16 @@ export const ResultUI = (data: z.infer<typeof resultSchema>) => {
 
     return (
       <div>
-        <p>
+        <p
+          style={{
+            whiteSpace: 'pre-wrap',
+          }}
+          className="break-all"
+        >
           <Button className="float-right rounded-sm size-6" variant="outline" size="icon" onClick={handleCopy}>
             {isCopied ? <CheckIcon size={16} /> : <ClipboardIcon size={16} />}
           </Button>
-          {data}
+          {data.replaceAll('\n\n', '\n')}
         </p>
       </div>
     );

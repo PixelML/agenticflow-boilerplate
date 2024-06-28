@@ -3,10 +3,10 @@ import { ofetch } from 'ofetch';
 
 export async function GET() {
   try {
-    const workflow = await ofetch(`/workspaces/${process.env.AGENTICFLOW_TEAMSPACE_ID}/workflows`, {
-      baseURL: 'https://api.workflowchef.ai/api',
+    const workflow = await ofetch(`/api/workspaces/${process.env.AGENTICFLOW_TEAMSPACE_ID}/workflows`, {
+      baseURL: process.env.NEXT_PUBLIC_API_BASE_URL,
       headers: {
-        Authorization: `Bearer ${process.env.AGENTICFLOW_ACCESS_TOKEN}`,
+        Authorization: `Bearer ${process.env.AGENTICFLOW_API_KEY}`,
       },
     });
 

@@ -49,3 +49,9 @@ http://localhost:3000/workflows/<workflow_id>
 ```
 
 Replace `<workflow_id>` with the actual ID of the workflow you wish to preview.
+
+## Going Further
+
+Join our Discord community to ask questions, receive support, and share your feedback. Click here to join: [AgenticFlow Discord](https://qra.ai/hackhcmc) 🚀.
+
+Alternatively, explore our [documentation](https://docs.agenticflow.ai/get-started/key-concepts) to deepen your understanding of AgenticFlow.

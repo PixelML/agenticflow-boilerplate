@@ -26,7 +26,7 @@ AGENTICFLOW_TEAMSPACE_ID=XXX
 
 To obtain the `TEAMSPACE_ID`, click on the `Copy Workspace ID` button as shown in the image below:
 
-![Copy Workspace ID](./img/teamspace_id.png)
+<img src="./img/teamspace_id.png" width="30%" />
 
 To retrieve the `API_KEY`, visit the following URL: [AgenticFlow Settings](https://app.agenticflow.ai/settings).
 

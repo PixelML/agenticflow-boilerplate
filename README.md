@@ -20,9 +20,15 @@ Next, set up your environment variables. Create a `.env` file in the root direct
 
 ```text
 NEXT_PUBLIC_API_BASE_URL=https://api.workflowchef.ai
-AGENTICFLOW_ACCESS_TOKEN=XXX
+AGENTICFLOW_API_KEY=XXX
 AGENTICFLOW_TEAMSPACE_ID=XXX
 ```
+
+To obtain the `TEAMSPACE_ID`, click on the `Copy Workspace ID` button as shown in the image below:
+
+![Copy Workspace ID](./img/teamspace_id.png)
+
+To retrieve the `API_KEY`, visit the following URL: [AgenticFlow Settings](https://app.agenticflow.ai/settings).
 
 ### 3. Start The Development Server
 

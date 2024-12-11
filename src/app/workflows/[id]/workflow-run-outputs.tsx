@@ -19,7 +19,7 @@ function WorkflowRunOutputs({ workflow, workflowRun }: Props) {
       return;
     }
 
-    ofetch('/api/node_types/?limit=100&offset=0', {
+    ofetch('/node_types/?limit=100&offset=0', {
       baseURL: process.env.NEXT_PUBLIC_API_BASE_URL,
     }).then((res) => {
       setNodeTypes(res);

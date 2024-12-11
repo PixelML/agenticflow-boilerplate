@@ -19,7 +19,7 @@ npm i
 Next, set up your environment variables. Create a `.env` file in the root directory and add the following lines, replacing XXX with your actual values:
 
 ```text
-NEXT_PUBLIC_API_BASE_URL=https://api.workflowchef.ai
+NEXT_PUBLIC_API_BASE_URL=https://api.pixelml.com/agentic
 AGENTICFLOW_API_KEY=XXX
 AGENTICFLOW_TEAMSPACE_ID=XXX
 ```

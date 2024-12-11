@@ -3,7 +3,7 @@ import { ofetch } from 'ofetch';
 
 export async function GET(_request: Request, { params }: { params: { id: string } }) {
   try {
-    const workflow = await ofetch(`/api/workflow_runs/${params.id}`, {
+    const workflow = await ofetch(`/workflow_runs/${params.id}`, {
       baseURL: process.env.NEXT_PUBLIC_API_BASE_URL,
       headers: {
         Authorization: `Bearer ${process.env.AGENTICFLOW_API_KEY}`,
@@ -29,7 +29,7 @@ export async function POST(request: Request, { params }: { params: { id: string 
 
     const input = JSON.parse(formData.get('input') as string);
 
-    const workflowRun = await ofetch('/api/workflow_runs/', {
+    const workflowRun = await ofetch('/workflow_runs/', {
       method: 'POST',
       baseURL: process.env.NEXT_PUBLIC_API_BASE_URL,
       headers: {
